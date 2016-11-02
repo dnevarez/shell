@@ -2,3 +2,7 @@
 function mkd(){
   mkdir -p "$@" && cd "$@"
 }
+
+function al(){
+  atom Users/Dan/.basic_aliases.sh
+}
